@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Просто описание интерьера</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/img/icons/ic1.svg" type="image/x-icon">
 </head>
+
 <body>
-    
+    <header class="header">
+        <h1 class="header__title">
+            <p>Дизайн</p>
+            <p>интерьеров</p>
+        </h1>
+        <div class="header__background">
+            <picture>
+                <source media="(max-width: 375px)" srcset="./src/img/header-phone.png">
+                <source media="(max-width: 667px)" srcset="./src/img/header-phone-horizontal.png">
+                <source media="(max-width: 768px)" srcset="./src/img/header-tablet.png">
+                <source media="(max-width: 1024px)" srcset="./src/img/header-tablet-horizontal.png">
+                <source media="(max-width: 1440px)" srcset="./src/img/header-pc.png">
+                <img src="./src/img/header-pc.png" alt="КАРТИНКА Просто описание интерьера">
+            </picture>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery__column">
+                    <div class="gallery__item item">
+                        <img src="./src/img/left-img-1.png" alt="Альт" class="item__image">
+                        <div class="item__content">
+                            <h2 class="item__title">Интерьер</h2>
+                            <hr class="item__divider">
+                            <p class="item__text">Просто описание интерьера</p>
+                        </div>
+                    </div>
+                    <div class="gallery__item item">
+                        <img src="./src/img/left-img-2.png" alt="Альт" class="item__image">
+                        <div class="item__content">
+                            <h2 class="item__title">Интерьер</h2>
+                            <hr class="item__divider">
+                            <p class="item__text">Просто описание интерьера</p>
+                        </div>
+                    </div>
+                    <div class="gallery__item item">
+                        <img src="./src/img/left-img-3.png" alt="Альт" class="item__image">
+                        <div class="item__content">
+                            <h2 class="item__title">Интерьер</h2>
+                            <hr class="item__divider">
+                            <p class="item__text">Просто описание интерьера</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery__column">
+                    <div class="gallery__item item">
+                        <img src="./src/img/right-img-1.png" alt="Альт" class="item__image">
+
+                        <div class="item__content">
+                            <h2 class="item__title">Интерьер</h2>
+                            <hr class="item__divider">
+                            <p class="item__text">Просто описание интерьера</p>
+                        </div>
+                    </div>
+                    <div class="gallery__item item">
+                        <img src="./src/img/right-img-2.png" alt="Альт" class="item__image">
+
+                        <div class="item__content">
+                            <h2 class="item__title">Интерьер</h2>
+                            <hr class="item__divider">
+                            <p class="item__text">Просто описание интерьера</p>
+                        </div>
+                    </div>
+                    <div class="gallery__item item">
+                        <img src="./src/img/right-img-3.png" alt="Альт" class="item__image">
+                        <div class="item__content">
+                            <h2 class="item__title">Интерьер</h2>
+                            <hr class="item__divider">
+                            <p class="item__text">Просто описание интерьера</p>
+                        </div>
+                    </div>
+                    <div class="gallery__item item">
+                        <img src="./src/img/right-img-4.png" alt="Альт" class="item__image">
+                        <div class="item__content">
+                            <h2 class="item__title">Интерьер</h2>
+                            <hr class="item__divider">
+                            <p class="item__text">Просто описание интерьера</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
